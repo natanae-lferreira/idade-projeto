@@ -2,12 +2,18 @@
 
 body {
     background: rgb(70, 142, 236);
-    font: normal 16px arial;
+    font: normal 40px arial;
 }
 
 header {
     color: white;
     text-align: center;
+    margin: 0;
+}
+
+header > h1 {
+    font: normal bolder 'Arial' sans-serif;
+    margin: 0;
 }
 
 section {
@@ -20,8 +26,19 @@ section {
     text-align: justify;
 }
 
+div > img {
+    display: block;
+    margin: auto;
+}
+
+p#hora {
+    font: normal bolder Coorier New;
+    text-align: center;
+}
+
 footer {
     color: white;
     text-align: center;
     font-style: italic;
+    font-size: 16px;
 }
